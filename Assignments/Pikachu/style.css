@@ -34,8 +34,9 @@ body {
 
 .pikachu-img {
   position: absolute;
-  right: 16%;
-  top: 5%;
+  top: 10%;
+  left: 60%;
+  transform: translateX(-50%); 
   height: 400px;
 }
 .left {
