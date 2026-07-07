@@ -47,6 +47,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
+  overflow: hidden;
 }
 .left h3 {
   letter-spacing: 3px;
