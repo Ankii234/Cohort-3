@@ -14,7 +14,6 @@ body {
 
 .main-card {
   width: 90vw;
-  max-width: 1200px; /* Ye magic line tumhare card ko stretch hone se rokegi */
   height: 90vh;
   border-radius: 10px;
   display: flex;
@@ -22,6 +21,7 @@ body {
   background-color: transparent;
   position: relative;
 }
+
 .main-card .logo {
   position: absolute;
   top: 5%;
