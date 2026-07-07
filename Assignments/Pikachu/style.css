@@ -14,6 +14,7 @@ body {
 
 .main-card {
   width: 90vw;
+  max-width: 1200px; /* Ye magic line tumhare card ko stretch hone se rokegi */
   height: 90vh;
   border-radius: 10px;
   display: flex;
