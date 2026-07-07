@@ -35,9 +35,10 @@ body {
 .pikachu-img {
   position: absolute;
   top: 10%;
-  left: 60%;
+  left: 68%;
   transform: translateX(-50%); 
-  height: 400px;
+  height: 550px;
+  z-index: 5;
 }
 .left {
   width: 60%;
@@ -81,11 +82,11 @@ body {
 .pokeball-img{
   pointer-events: none;
   position: absolute;
-  bottom: -50px;
+  bottom: 20px;
   right: 80%;
-  width: 200px;
+  width: 180px;
   top: 75%;
-  opacity: 0.2;
+  opacity: 0.1;
 
 }
 
