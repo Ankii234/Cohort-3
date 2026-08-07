@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+html,
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-card {
+  width: 90vw;
+  height: 90vh;
+  border-radius: 10px;
+  display: flex;
+  overflow: hidden;
+  background-color: transparent;
+  position: relative;
+}
+
+.main-card .logo {
+  position: absolute;
+  top: 5%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  font-size: 30px;
+}
+
+.pikachu-img {
+  position: absolute;
+  top: 10%;
+  left: 68%;
+  transform: translateX(-50%); 
+  height: 550px;
+  z-index: 5;
+}
+.left {
+  width: 60%;
+  background-color: #fcc60a;
+  padding: 100px 40px;
+  padding-right: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.left h3 {
+  letter-spacing: 3px;
+  font-size: 13px;
+}
+.left h1 {
+  letter-spacing: 2px;
+  font-size: 5rem;
+  margin-bottom: 10px;
+}
+.left p {
+  word-spacing: 3px;
+  margin-bottom: 35px;
+  line-height: 1.4;
+}
+.main-card .left .num {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.main-card .left .num p {
+  margin-bottom: 0;
+}
+
+.main-card .left .num .line {
+  background-color: black;
+  height: 2px;
+  width: 40px;
+}
+.pokeball-img {
+  pointer-events: none;
+  position: absolute;
+  bottom: -30px; 
+  left: -20px;   
+  width: 250px;  
+  opacity: 0.1;
+}
+.right {
+  width: 40%;
+  background-color: #f9e8b4;
+  /* position: relative;    Isey uncomment karna ZAROORI hai! */
+}
+
+
+.dots-container {
+  position: absolute;
+  right: 30px; 
+  top: 50%;
+  transform: translateY(-50%); 
+  display: flex;
+  flex-direction: column; 
+  gap: 15px; 
+}
+
+.dots-container span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #d1b338; 
+  cursor: pointer;
+}
+
+.dots-container .active {
+  background-color: black;
+}
