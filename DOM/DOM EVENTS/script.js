@@ -8,5 +8,6 @@ form.addEventListener("submit", (events)=>{
 //    console.log(surname.value);
       console.log(events.target[0].value);
       console.log(events.target[1].value);
+      console.log(events.target[2].value);
    
 })
