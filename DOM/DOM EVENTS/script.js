@@ -19,5 +19,5 @@ form.addEventListener("submit", (events)=>{
     </div>
     </div>`;
     form.reset();
-
+    
 });
