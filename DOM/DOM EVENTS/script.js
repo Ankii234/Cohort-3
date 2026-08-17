@@ -57,11 +57,10 @@ usersData.forEach((elem) => {
 
 form.addEventListener("submit", (events)=>{
     events.preventDefault();
-
     let name = inp1.value;
     let email = inp2.value;
     let imageUrl = url.value;
-    if (name.trim() === "" && email.trim() === "") return;
+    if (name.trim() === "" && email.trim() === "" && imageUrl.trim() === "" ) return;
     users.innerHTML += `<div class="user_card">
     <div class="img_box">
     <img src=" ${imageUrl} ">
