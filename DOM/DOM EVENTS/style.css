@@ -34,6 +34,7 @@ button{
     border: none;
 }
 .users{
+    height: fit-content;
     margin-top: 20px;
     height: 100%;
     display: flex;
@@ -43,7 +44,7 @@ button{
 .user_card{
     background-color: beige;
     padding: 10px;
-    height: 40%;
+    
     width: 20%;
     border-radius: 10px;
     border: 1px solid white;
@@ -61,7 +62,19 @@ button{
 }
 .text{
     color: black;
+    margin-bottom: 10px;
 }
 h3{
     margin-bottom: 10px;
+}
+.actions{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#edit{
+    background-color: darkorange;
+}
+#delete{
+    background-color: red;
 }

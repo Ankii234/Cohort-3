@@ -52,6 +52,10 @@ usersData.forEach((elem) => {
     <h2>Name - ${elem.name} </h2>
     <p>Email - ${elem.email} </p>
     </div>
+     <div class="actions">
+        <button id="edit">Edit</button>
+        <button id="delete">Delete</button>
+    </div>
     </div>`;
 });
 
