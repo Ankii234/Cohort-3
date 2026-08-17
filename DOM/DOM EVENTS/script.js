@@ -43,7 +43,8 @@ let usersData = [
   },
 ];
 
-usersData.forEach((elem) => {
+const ui = () => {
+  usersData.forEach((elem) => {
    users.innerHTML += `<div class="user_card">
     <div class="img_box">
     <img src="${elem.dp} " alt="img from unsplash">
@@ -54,10 +55,11 @@ usersData.forEach((elem) => {
     </div>
      <div class="actions">
         <button id="edit">Edit</button>
-        <button id="delete">Delete</button>
+        <button onclick="deleteCard()" id="delete">Delete</button>
     </div>
     </div>`;
 });
+}
 
 form.addEventListener("submit", (events)=>{
     events.preventDefault();
@@ -75,6 +77,10 @@ form.addEventListener("submit", (events)=>{
     <p>Email - ${email} </p>
     </div>
     </div>`;
+    ui();
     form.reset();
     
 });
+let deleteCard = () => {
+    usersData.pop();
+}
