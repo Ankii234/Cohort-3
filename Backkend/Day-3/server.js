@@ -8,7 +8,7 @@ let users = [
         name: "pol",
         age: 21,
         gender: "male"
-        rollno: 21
+
     },
 ];
 
