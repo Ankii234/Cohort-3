@@ -19,10 +19,39 @@ main{
     width: 25%;
     border: 2px solid wheat;
     border-radius: 12px;
+    padding: 10px;
 }
 button{
  background-color: white;
  color: black;
  border-radius: 5px;
  padding: 7px 14px;
+ border: none;
+}
+.box{
+    position: relative;
+    height: 10%;
+    width: 15%;
+    border-radius: 10px;
+    background-color: red;
+}
+#top{
+    color: white;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#overlay{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    font-size: 50px;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.815);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: none;
 }
