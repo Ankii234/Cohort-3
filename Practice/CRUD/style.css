@@ -26,6 +26,7 @@ nav{
     background-color: rgba(0, 0, 255, 0.772);
     color: white;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 button{
     padding: 10px 25px;
@@ -40,10 +41,15 @@ button{
 }
 .product-card{
     padding: 10px;
-    height: 40%;
-    width: 25%;
+    height: 50%;
+    width: 20%;
     border-radius: 10px;
-    border: 1px solid black;
+    border: 1px solid gray;
+    background-color: white;
+    box-shadow: 3px 0 10px rgba(0, 0, 0, 0.279);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .img{
     height: 60%;
@@ -53,4 +59,24 @@ button{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 3px 0 10px rgba(0, 0, 0, 0.417);
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.btns{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+#update{
+    background-color: orange;
+    color: white;
+}
+#delete{
+    background-color: red;
+    color: white;
 }
