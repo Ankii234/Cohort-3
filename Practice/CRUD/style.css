@@ -102,4 +102,6 @@ form{
 input{
     padding: 20px;
     outline: none;
+    border: 2px solid gray;
+    border-radius: 10px;
 }
